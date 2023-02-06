@@ -1,8 +1,11 @@
 Firstname = "Marcos"
 Secondname = "Hernandez"
-Car 1 = "Range Rover"
-car 2 = "Mercedes-Benz"
+age = input("Enter Age:")
+
+Car1 = "Range Rover"
+car2 = "Mercedes-Benz"
 
 
-
-print(Firstname+Secondname)
+if age < "20":
+    print(car2)
+else:print(Car1)
