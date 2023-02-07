@@ -1,11 +1,6 @@
-Firstname = "Marcos"
-Secondname = "Hernandez"
-age = input("Enter Age:")
-
-Car1 = "Range Rover"
-car2 = "Mercedes-Benz"
+Day=0
+while Day<365:
+    Day=Day+1
+    print("Total to save today is ksh",Day)
 
 
-if age < "20":
-    print(car2)
-else:print(Car1)
