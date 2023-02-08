@@ -1,7 +1,8 @@
+no1 = int(input("Enter first number:"))
 
-age = int(input("Enter your age:"))
-print("Your age is", age, "years")
+no2 = int(input("Enter second number:"))
+result = no1 + no2
+
+print(f"the sum of the two is {result}")
 
 
-months = age * 12
-print("You are",months, "months old")

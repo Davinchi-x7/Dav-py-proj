@@ -1,4 +1,6 @@
-import datetime
-x = datetime.datetime.now()
-print("this is the",x.strftime("%j"),"th day")
-print("today you will save sh",x.strftime("%j"))
+no1 = input("Enter first number:")
+
+no2 = input("Enter second number:")
+prod = no1 * no2
+
+print(f"the product of the two is {prod}")
