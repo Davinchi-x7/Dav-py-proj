@@ -6,7 +6,6 @@ if number == 544:
     print("3: Tunukiwa")
     print("4: fuliza")
     print("5: Mpesa")
-
 else:
     print("invalid entry please try again")
 
@@ -23,3 +22,4 @@ elif num == 5:
     print("You have selected Mpesa")
 else:
     print("invalid entry please try again")
+

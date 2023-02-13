@@ -9,7 +9,6 @@ def calc():
 
 
 if day < 365:
-
     print(f"Total to save today is KSH {day}")
     calc()
 
